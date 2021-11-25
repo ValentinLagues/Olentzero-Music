@@ -4,7 +4,7 @@ import Card from "./Card";
 import calendar from "../data";
 
 const CardsList = () => {
-    const [playing, setPlaying] = useState(0);
+    const [activeCard, setActiveCard] = useState(0);
 
     console.log(calendar[0].url);
     return (
@@ -15,8 +15,8 @@ const CardsList = () => {
             number={day.number}
             image={day.image}
             track={day.url}
-            setPlaying={setPlaying}
-            playing={playing}
+            setActiveCard={setActiveCard}
+            activeCard={activeCard}
             />
         ))}
         </div>
