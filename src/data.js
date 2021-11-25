@@ -23,157 +23,159 @@ import image22 from "./images/22.png";
 import image23 from "./images/23.png";
 import image24 from "./images/24.png";
 import image25 from "./images/25.png";
+import song1 from "./mp3/Wham-LastChristmas.mp3";
+import song2 from "./mp3/OlentzeroTxirriMirrietaTxiribiton.mp3";
 
 const calendar = [
   {
     number: "1",
     image: image1,
     lottie: "",
-    url: "https://www.youtube.com/watch?v=HGdk_F2XjYU"
+    url: song1,
   },
   {
     number: "2",
     image: image2,
     lottie: "",
-    url: "https://www.youtube.com/watch?v=eVGryXWSMe0"
+    url: song2,
   },
   {
     number: "3",
     image: image3,
     lottie: "",
-    url: "https://www.youtube.com/watch?v=j5ceLMPlqnA"
+    url: "https://www.youtube.com/watch?v=j5ceLMPlqnA",
   },
   {
     number: "4",
     image: image4,
     lottie: "",
-    url: "https://www.youtube.com/watch?v=tjpvdX1qaKY"
+    url: "https://www.youtube.com/watch?v=tjpvdX1qaKY",
   },
   {
     number: "5",
     image: image5,
     lottie: "",
-    url: "https://www.youtube.com/watch?v=16fZV9uOvyA"
+    url: "https://www.youtube.com/watch?v=16fZV9uOvyA",
   },
   {
     number: "6",
     image: image6,
     lottie: "",
-    url: "https://www.youtube.com/watch?v=bLvdG5LMwr0&list=PLF57367E2FD3E4203"
+    url: "https://www.youtube.com/watch?v=bLvdG5LMwr0&list=PLF57367E2FD3E4203",
   },
   {
     number: "7",
     image: image7,
     lottie: "",
-    url: "https://www.youtube.com/watch?v=EXa0zHdD4mE"
+    url: "https://www.youtube.com/watch?v=EXa0zHdD4mE",
   },
   {
     number: "8",
     image: image8,
     lottie: "",
-    url: "https://www.youtube.com/watch?v=5bIpVZcMvjw"
+    url: "https://www.youtube.com/watch?v=5bIpVZcMvjw",
   },
   {
     number: "9",
     image: image9,
     lottie: "",
-    url: "https://www.youtube.com/watch?v=cc_f5MmP7k0&list=PLF57367E2FD3E4203&index=3"
+    url: "https://www.youtube.com/watch?v=cc_f5MmP7k0&list=PLF57367E2FD3E4203&index=3",
   },
   {
     number: "10",
     image: image10,
     lottie: "",
-    url: "https://www.youtube.com/watch?v=A_vA2-yJmr4"
+    url: "https://www.youtube.com/watch?v=A_vA2-yJmr4",
   },
   {
     number: "11",
     image: image11,
     lottie: "",
-    url: "https://www.youtube.com/watch?v=LsCd7biuDng&list=PLCbyUblvTyKm3-SkG23u6TW-u2XzzZxw_&index=18"
+    url: "https://www.youtube.com/watch?v=LsCd7biuDng&list=PLCbyUblvTyKm3-SkG23u6TW-u2XzzZxw_&index=18",
   },
   {
     number: "12",
     image: image12,
     lottie: "",
-    url: "https://www.youtube.com/watch?v=pC2sngTuB9k"
+    url: "https://www.youtube.com/watch?v=pC2sngTuB9k",
   },
   {
     number: "13",
     image: image13,
     lottie: "",
-    url: "https://www.youtube.com/watch?v=gr2MLUfuWlQ"
+    url: "https://www.youtube.com/watch?v=gr2MLUfuWlQ",
   },
   {
     number: "14",
     image: image14,
     lottie: "",
-    url: "https://www.youtube.com/watch?v=v6FSAJ1Hw4c"
+    url: "https://www.youtube.com/watch?v=v6FSAJ1Hw4c",
   },
   {
     number: "15",
     image: image15,
     lottie: "",
-    url: "https://www.youtube.com/watch?v=hzZmsGvx18k"
+    url: "https://www.youtube.com/watch?v=hzZmsGvx18k",
   },
   {
     number: "16",
     image: image16,
     lottie: "",
-    url: "https://www.youtube.com/watch?v=IA-zXBiH6JQ&list=PLF57367E2FD3E4203&index=4"
+    url: "https://www.youtube.com/watch?v=IA-zXBiH6JQ&list=PLF57367E2FD3E4203&index=4",
   },
   {
     number: "17",
     image: image17,
     lottie: "",
-    url: "https://www.youtube.com/watch?v=1DPtUa_tlUo"
+    url: "https://www.youtube.com/watch?v=1DPtUa_tlUo",
   },
   {
     number: "18",
     image: image18,
     lottie: "",
-    url: "https://www.youtube.com/watch?v=70cYeWeDG5g&list=PLF57367E2FD3E4203&index=6"
+    url: "https://www.youtube.com/watch?v=70cYeWeDG5g&list=PLF57367E2FD3E4203&index=6",
   },
   {
     number: "19",
     image: image19,
     lottie: "",
-    url: "https://www.youtube.com/watch?v=yHto3CoDICs&list=PLCbyUblvTyKm3-SkG23u6TW-u2XzzZxw_&index=20"
+    url: "https://www.youtube.com/watch?v=yHto3CoDICs&list=PLCbyUblvTyKm3-SkG23u6TW-u2XzzZxw_&index=20",
   },
   {
     number: "20",
     image: image20,
     lottie: "",
-    url: "https://www.youtube.com/watch?v=C9QHtOnEIHk"
+    url: "https://www.youtube.com/watch?v=C9QHtOnEIHk",
   },
   {
     number: "21",
     image: image21,
     lottie: "",
-    url: "https://www.youtube.com/watch?v=1ffl301Ba9o"
+    url: "https://www.youtube.com/watch?v=1ffl301Ba9o",
   },
   {
     number: "22",
     image: image22,
     lottie: "",
-    url: "https://www.youtube.com/watch?v=5Vwu-t7QRaE"
+    url: "https://www.youtube.com/watch?v=5Vwu-t7QRaE",
   },
   {
     number: "23",
     image: image23,
     lottie: "",
-    url: "https://www.youtube.com/watch?v=vbvyNnw8Qjg"
+    url: "https://www.youtube.com/watch?v=vbvyNnw8Qjg",
   },
   {
     number: "24",
     image: image24,
     lottie: "",
-    url: "https://www.youtube.com/watch?v=kFhf7pjRRjA"
+    url: "https://www.youtube.com/watch?v=kFhf7pjRRjA",
   },
   {
     number: "25",
     image: image25,
     lottie: "",
-    url: "https://www.youtube.com/watch?v=aAkMkVFwAoo"
+    url: "https://www.youtube.com/watch?v=aAkMkVFwAoo",
   },
 ];
 

@@ -18,7 +18,7 @@ const Card = ({ title, track, cover, number, image }) => {
         {!cardReturn && (
           <div>
             <ReactPlayer
-              className="player"
+              width="0"
               url={track}
               controls
               playing={playing}
