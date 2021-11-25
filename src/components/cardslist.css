@@ -1,6 +1,6 @@
 .grid-avent {
   display: grid;
-  background: #26da6b;
+  background: #f5f5f5;
   max-width: 95%;
   height: 100%;
   margin: 2% auto;
@@ -24,18 +24,21 @@
     "d3 d3 d3 d3 d6 d6 d6 d6 d6 d6 d22 d22 d22 d5 d5 d8 d8 d8 d8 d25 d25 d25 d25 d25 d25";
 }
 
-.container {
-  background: #cfd15b;
-  margin: 5px;
-}
-
 .day-1 {
   grid-area: d1;
+}
+
+.day-1:hover {
+  background-color: blueviolet;
 }
 
 .day-2 {
   grid-area: d2;
   flex-direction: column;
+}
+
+.day-2:hover {
+  background-color: burlywood;
 }
 
 .day-3 {
@@ -89,7 +92,6 @@
 
 .day-15 {
   grid-area: d15;
-  background-color: red;
 }
 
 .day-16 {

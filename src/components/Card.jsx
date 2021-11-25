@@ -9,11 +9,13 @@ const Card = ({ track, number, image }) => {
   console.log(number);
   return (
     <div
-      className={`day-${number} container`}
+      className={`day-${number} cards-container`}
       onClick={() => setPlaying(!playing)}
     >
+      <div className="overlay">
+        <h1>{number}</h1>
+      </div>
       <img src={image} alt="{}" />
-      <h1>{number}</h1>
       {/* <ReactPlayer
         className="player"
         url={track}
