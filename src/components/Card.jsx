@@ -3,28 +3,39 @@ import ReactPlayer from "react-player";
 import "./card.css";
 import "./cardslist.css";
 
-const Card = ({ track, number, image }) => {
-  const [playing, setPlaying] = useState(false);
+const Card = ({ track, number, image, activeCard, setActiveCard }) => {
+  const [cardReturn, setCardreturn] = useState(true);
 
-  console.log(number);
   return (
-    <div
-      className={`day-${number} cards-container`}
-      onClick={() => setPlaying(!playing)}
-    >
-      <div className="overlay">
-        <h1>{number}</h1>
+    <>
+      <div
+        className={`day-${number} cards-container`}
+        onClick={() =>
+          activeCard === number ? setActiveCard(0) : setActiveCard(number)
+        }
+      >
+        {cardReturn && (
+          <>
+            <div onClick={() => setCardreturn(!cardReturn)} className="overlay">
+              <h1>{number}</h1>
+            </div>
+            <img src={image} alt="{}" />
+          </>
+        )}
+
+        {!cardReturn && (
+          <div>
+            <ReactPlayer
+              width="0"
+              url={track}
+              controls
+              playing={activeCard === number}
+              volume={0.1}
+            />
+          </div>
+        )}
       </div>
-      <img src={image} alt="{}" />
-      {/* <ReactPlayer
-        className="player"
-        url={track}
-        controls
-        playing={playing}
-        volume={0.1}
-      /> */}
-    </div>
+    </>
   );
 };
-
 export default Card;
