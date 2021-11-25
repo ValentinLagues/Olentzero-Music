@@ -8,7 +8,7 @@ const Modal = () => {
     <>
       {hideModal && (
         <div className="App-modal" onClick={() => setHideModal(false)}>
-          <div>Olentzero 0 Music</div>
+          <div className="App-title">Olentzero 0 Music</div>
         </div>
       )}
     </>
