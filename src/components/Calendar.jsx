@@ -8,7 +8,7 @@ const Calendar = () => {
         return (
           <div>
             <h1>{day.number}</h1>
-            <img src={day.image}></img>
+            <img src={day.image} alt="img"></img>
           </div>
         );
       })}
