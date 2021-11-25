@@ -2,12 +2,13 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./cardslist.css";
 import Card from "./Card";
+import calendar from "../data";
 
 const CardsList = () => {
   const [playlist, setPlaylist] = useState();
   const [track, setTrack] = useState([]);
 
-  useEffect(() => {
+  /*   useEffect(() => {
     axios
       .get(
         `https://cors-anywhere.herokuapp.com/https://api.deezer.com/playlist/5135745864`
@@ -15,12 +16,13 @@ const CardsList = () => {
       .then((response) => response.data.tracks.data)
       .then((data) => setPlaylist(data))
       .catch((error) => console.error(error));
-  }, []);
+  }, []); */
 
   console.log(playlist);
   return (
-    <div>
-      {playlist &&
+    <div className="cardsGrid">
+      {
+        /* playlist &&
         playlist.map((track, index) => (
           <Card
             cover={track.album.cover}
@@ -28,7 +30,11 @@ const CardsList = () => {
             track={track.track}
             key={index}
           />
-        ))}
+        )) && */
+        calendar.map((day) => (
+          <Card number={day.number} image={day.image} />
+        ))
+      }
     </div>
   );
 };
