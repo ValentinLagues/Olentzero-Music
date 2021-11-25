@@ -1,19 +1,13 @@
-import { useState } from "react";
+import React from "react";
 import "./cardslist.css";
 import Card from "./Card";
 import calendar from "../data";
 
 const CardsList = () => {
-  const [playing, setPlaying] = useState(false);
   return (
     <div className="cardsGrid">
       {calendar.map((day) => (
-        <Card
-          number={day.number}
-          image={day.image}
-          setPlaying={setPlaying}
-          playing={playing}
-        />
+        <Card number={day.number} image={day.image} />
       ))}
     </div>
   );
