@@ -6,7 +6,6 @@ import calendar from "../data";
 const CardsList = () => {
   const [activeCard, setActiveCard] = useState(0);
 
-  console.log(calendar[0].url);
   return (
     <div className="grid-avent">
       {calendar.map((day, index) => (
@@ -15,6 +14,7 @@ const CardsList = () => {
           number={day.number}
           image={day.image}
           track={day.url}
+          lottie={day.lottie}
           setActiveCard={setActiveCard}
           activeCard={activeCard}
         />

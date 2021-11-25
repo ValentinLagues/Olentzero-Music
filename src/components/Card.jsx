@@ -1,11 +1,17 @@
 import React, { useState } from "react";
 import ReactPlayer from "react-player";
+import Lottie from "react-lottie";
 import "./card.css";
 import "./cardslist.css";
 
-const Card = ({ track, number, image, activeCard, setActiveCard }) => {
+const Card = ({ track, number, image, lottie, activeCard, setActiveCard }) => {
   const [cardReturn, setCardreturn] = useState(true);
-
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: lottie,
+  };
+  console.log(lottie);
   return (
     <>
       <div
@@ -27,11 +33,13 @@ const Card = ({ track, number, image, activeCard, setActiveCard }) => {
           <div>
             <ReactPlayer
               width="0"
+              height="0"
               url={track}
               controls
               playing={activeCard === number}
               volume={0.1}
             />
+            <Lottie options={defaultOptions} />
           </div>
         )}
       </div>
