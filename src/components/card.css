@@ -1,11 +1,14 @@
+body {
+  margin: 1%;
+}
 .container {
   display: flex;
   align-items: center;
-  background-color: #082844;
+  background-color: #082844ab;
   width: 300px;
   height: 300px;
+  animation-duration: 2s;
 }
-.reactPlayer {
-  width: 5px;
-  height: 5px;
+.player {
+  visibility: hidden;
 }
