@@ -1,12 +1,10 @@
-import React, { useState, useEffect } from "react";
-import axios from "axios";
+import React, { useState } from "react";
 import "./cardslist.css";
 import Card from "./Card";
 import calendar from "../data";
 
 const CardsList = () => {
   const [playlist, setPlaylist] = useState();
-  const [track, setTrack] = useState([]);
 
   /*   useEffect(() => {
     axios
