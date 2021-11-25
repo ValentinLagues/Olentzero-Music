@@ -1,16 +1,19 @@
-import React, {useState} from "react";
+import React from "react";
 import ReactPlayer from "react-player";
 import "./card.css";
 
-const Card = ({ track, number, image }) => {
-    const [playing, setPlaying] = useState(false);
+const Card = ({ track, number, image, setActiveId, activeId }) => {
 
-    console.log(number);
+
     return (
-        <div className="container" onClick={() => setPlaying(!playing)}>
-            <img src={image} alt="{}" />
+        <div
+        className="container"
+        onClick={() => {
+            setActiveId(number)
+        }}>
+            <img src={image} alt={number} />
             <h1>{number}</h1>
-            <ReactPlayer className="player" url={track} controls playing={playing} volume={0.1} />
+            <ReactPlayer className="player" url={track} playing={activeId === number} volume={0.1} />
         </div>
     );
 };
