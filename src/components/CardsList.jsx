@@ -1,23 +1,14 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
 import "./cardslist.css";
 import Card from "./Card";
+import calendar from "../data";
 
 const CardsList = () => {
-  const [playlist, setPlaylist] = useState();
-
-
-
   return (
-    <div>
-      {playlist &&
-        playlist.map((track, index) => (
-          <Card
-            cover={track.album.cover}
-            title={track.title}
-            track={track.track}
-            key={index}
-          />
-        ))}
+    <div className="cardsGrid">
+      {calendar.map((day) => (
+        <Card number={day.number} image={day.image} />
+      ))}
     </div>
   );
 };
