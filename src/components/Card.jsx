@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import ReactPlayer from "react-player";
 import "./card.css";
 
-const Card = ({ title, track, cover, number, image }) => {
+const Card = ({ track, number, image, playing, setPlaying }) => {
   const [cardReturn, setCardreturn] = useState(true);
-  const [playing, setPlaying] = useState(false);
+
   return (
     <>
-      <div className="container" onClick={() => setPlaying(!playing)}>
+      <div className="container" onClick={() => setPlaying(number)}>
         {cardReturn && (
           <div onClick={() => setCardreturn(!cardReturn)}>
             <img src={image} alt="{}" />
@@ -21,7 +21,7 @@ const Card = ({ title, track, cover, number, image }) => {
               width="0"
               url={track}
               controls
-              playing={playing}
+              playing={playing === number}
               volume={0.1}
             />
           </div>
