@@ -1,13 +1,11 @@
-import React, { useState, useEffect } from "react";
-import axios from "axios";
+import React, { useState} from "react";
 import "./cardslist.css";
 import Card from "./Card";
 
 const CardsList = () => {
   const [playlist, setPlaylist] = useState();
-  const [track, setTrack] = useState([]);
 
-  useEffect(() => {
+  /* useEffect(() => {
     axios
       .get(
         `https://cors-anywhere.herokuapp.com/https://api.deezer.com/playlist/5135745864`
@@ -15,7 +13,7 @@ const CardsList = () => {
       .then((response) => response.data.tracks.data)
       .then((data) => setPlaylist(data))
       .catch((error) => console.error(error));
-  }, []);
+  }, []); */
 
   console.log(playlist);
   return (
