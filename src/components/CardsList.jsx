@@ -6,8 +6,8 @@ import calendar from "../data";
 const CardsList = () => {
   return (
     <div className="cardsGrid">
-      {calendar.map((day) => (
-        <Card number={day.number} image={day.image} />
+      {calendar.map((day, index) => (
+        <Card key={index} number={day.number} image={day.image} />
       ))}
     </div>
   );
