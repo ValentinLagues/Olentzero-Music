@@ -1,9 +1,11 @@
 .container {
   display: flex;
   align-items: center;
-  background-color: #082844;
+  justify-content: center;
+  background-color: #082844ab;
   width: 300px;
   height: 300px;
+  animation-duration: 2s;
 }
 .player {
   visibility: hidden;
