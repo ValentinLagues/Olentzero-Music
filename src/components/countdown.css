@@ -3,9 +3,25 @@
     src: local("Christmas"), url("../Fonts/Christmas.ttf");
   }
 
-.countdown-container {
+.countdown-christmas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.countdown-container-2 {
+    width: 60%;
     font-family: Christmas, "Courier New", Courier, monospace;
-    font-size: 3em;
     border-style: solid;
     border-radius: 25px;
   }
+
+.countdown-christmas {
+    font-size: 3.5em;
+    margin: 5px;
+}
+
+.countdown-date {
+    font-size: 3em;
+    padding: 10px;
+}
