@@ -5,27 +5,29 @@ import Card from "./Card";
 
 const CardsList = () => {
     const [playlist, setPlaylist] = useState();
-    const [track, setTrack] = useState([]);
+
 
     useEffect(() => {
         axios
-            .get(`https://cors-anywhere.herokuapp.com/https://api.deezer.com/playlist/5135745864`)
+            .get(`https://cors-anywhere.herokuapp.com/https://api.deezer.com/playlist/66008470`)
             .then((response) => response.data.tracks.data)
             .then((data) => 
-            setPlaylist(data)
+                setPlaylist(data)
             )
-          .catch((error) => console.error(error))
+            .catch((error) => console.error(error))
     }, []);
+
 
     console.log(playlist)
     return(
-        <div>
-            {playlist &&
-            playlist.map((track, index) => 
-                <Card cover={track.album.cover} title={track.title} track={track.track} key={index} />
-            )
-            }
-                
+        <div className="cards-containers">
+            <div className="cards-containers-item" >
+                {playlist &&
+                playlist.map((track, index) => 
+                    <Card cover={track.album.cover} title={track.title} track={track.preview} key={index} />
+                )
+                }
+            </div>  
         </div>
     )
 }

@@ -1,0 +1,14 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    width: 20vw;
+    min-height: 45vh;
+    max-height: auto;
+    margin: 2rem 0;
+}
+
+.track-player {
+    visibility: hidden;
+    display: none;
+}
