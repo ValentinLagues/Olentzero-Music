@@ -5,7 +5,6 @@
   width: 300px;
   height: 300px;
 }
-.reactPlayer {
-  width: 5px;
-  height: 5px;
+.player {
+  visibility: hidden;
 }
