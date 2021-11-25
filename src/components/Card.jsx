@@ -2,20 +2,15 @@ import React, {useState} from "react";
 import ReactPlayer from 'react-player';
 import "./card.css";
 
-const Card = ({title, track, cover}) => {
-    const [display, setDisplay] = useState(true);
-    // const [cadClass, setCardClass] = useState("card-container");
+const Card = ({track}) => {
+    const [playing, setPlaying] = useState(false);
 
-    // console.log(cardClass)
+    // console.log(image[0])
+
     return(
-        <>
-        {display &&
-            <div className="card-container" onClick={() => setDisplay(false)}>
-                <ReactPlayer className="track-player" url={track} controls  volume={0.1} />
-            </div>
-        }
-        </>
-
+        <div className="card-container" onClick={() => setPlaying(true)}>
+            <ReactPlayer className="track-player" url="https://www.youtube.com/watch?v=eVGryXWSMe0" playing={playing} volume={0.1} />
+        </div>
     )
 }
 
