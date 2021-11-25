@@ -1,13 +1,14 @@
-import './App.css';
-import CardsList from './components/CardsList'
 import "./App.css";
+import CardList from "./components/CardsList";
 import Modal from "./components/Modal";
+import Countdown from "./components/Countdown";
 
 function App() {
   return (
     <div className="App">
-      <CardsList />
       <Modal />
+      <Countdown />
+      <CardList />
     </div>
   );
 }

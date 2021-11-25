@@ -1,14 +1,10 @@
-.card-container {
-    display: flex;
-    flex-direction: column;
-    border: 1px black solid;
-    width: 20vw;
-    min-height: 45vh;
-    max-height: auto;
-    margin: 2rem 0;
+.container {
+  display: flex;
+  align-items: center;
+  background-color: #082844;
+  width: 300px;
+  height: 300px;
 }
-
-.track-player {
-    visibility: hidden;
-    display: none;
+.player {
+  visibility: hidden;
 }
