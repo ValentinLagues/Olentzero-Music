@@ -3,14 +3,33 @@
   src: local("MerryChristmasStar"), url("../Fonts/MerryChristmasStar.ttf");
 }
 
+@keyframes slideIn {
+  0% {
+    transform: translate(0, -50vw);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
 .App-modal {
+  margin-top: -22px;
+  overflow-y: hidden;
+  position: fixed;
   font-family: MerryChristmasStar, "Courier New", Courier, monospace;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: red;
+  background-image: url("http://prettypoun.p.r.pic.centerblog.net/13852b7b.gif");
+  background-size: 40vw 110vh;
   display: flex;
   color: rgb(214, 0, 0);
   align-items: center;
   justify-content: center;
   font-size: 8vw;
+}
+.App-title {
+  animation-name: slideIn;
+  animation-duration: 2s;
 }
