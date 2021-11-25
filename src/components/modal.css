@@ -19,10 +19,10 @@
   position: fixed;
   font-family: MerryChristmasStar, "Courier New", Courier, monospace;
   width: 100vw;
-  height: 100vh;
+  height: 110vh;
   background-color: red;
   background-image: url("http://prettypoun.p.r.pic.centerblog.net/13852b7b.gif");
-  background-size: 30vw 100vh;
+  background-size: 40vw 110vh;
   display: flex;
   color: rgb(214, 0, 0);
   align-items: center;
