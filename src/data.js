@@ -53,7 +53,7 @@ import lottie21 from "./lotties/21.json";
 import lottie22 from "./lotties/22.json";
 import lottie23 from "./lotties/23.json";
 import lottie24 from "./lotties/24.json";
-import lottie25 from "./lotties/25.json";
+import lottie25 from "./lotties/25mariahcarey.gif";
 
 
 
