@@ -3,6 +3,14 @@
     src: local("Christmas"), url("../Fonts/Christmas.ttf");
   }
 
-.countdown-container {
+.countdown {
     font-family: Christmas, "Courier New", Courier, monospace;
+    font-size: 3em;
+    border-style: solid;
+    border-radius: 25px;
   }
+
+.timeleft {
+    font-size: 2em;
+    margin-bottom: 20px;
+}

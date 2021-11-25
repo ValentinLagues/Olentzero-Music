@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import './countdown.css';
 
 function Countdown() {
+
   const calculateTimeLeft = () => {
     let year = new Date().getFullYear();
     const difference = +new Date(`${year}-12-25`) - +new Date();
