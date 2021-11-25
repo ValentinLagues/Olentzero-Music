@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import './countdown.css';
+import "./countdown.css";
 
 function Countdown() {
   const calculateTimeLeft = () => {
@@ -36,7 +36,7 @@ function Countdown() {
     }
 
     timerComponents.push(
-      <span>
+      <span className="timeleft">
         {timeLeft[interval]} {interval}{" "}
       </span>
     );
@@ -44,7 +44,11 @@ function Countdown() {
   return (
     <div className="countdown-container">
       <h2 className="countdown">Christmas {year} Countdown</h2>
-      {timerComponents.length ? timerComponents : <span>Merry Christmas!</span>}
+      {timerComponents.length ? (
+        <div className="countdown">{timerComponents}</div>
+      ) : (
+        <span>Merry Christmas!</span>
+      )}
     </div>
   );
 }

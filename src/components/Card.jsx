@@ -5,7 +5,6 @@ import "./card.css";
 const Card = ({ track, number, image }) => {
     const [playing, setPlaying] = useState(false);
 
-    console.log(number);
     return (
         <div className="container" onClick={() => setPlaying(!playing)}>
             <img src={image} alt="{}" />

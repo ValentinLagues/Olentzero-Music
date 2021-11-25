@@ -29,13 +29,13 @@ const calendar = [
     number: "1",
     image: image1,
     lottie: "",
-    url: "https://www.youtube.com/watch?v=HGdk_F2XjYU"
+    url: "./mp3/Wham-LastChristmas.mp3"
   },
   {
     number: "2",
     image: image2,
     lottie: "",
-    url: "https://www.youtube.com/watch?v=eVGryXWSMe0"
+    url: "./mp3/OlentzeroTxirriMirrietaTxiribiton.mp3"
   },
   {
     number: "3",
