@@ -37,13 +37,13 @@ import song8 from "./mp3/Rudolph.mp3";
 import song9 from "./mp3/ViveLeVent.mp3";
 import song10 from "./mp3/JoungoulBell.mp3";
 import song11 from "./mp3/AiOlentzero.mp3";
-import song12 from "./mp3/CelKilt.mp3";
+import song12 from "./mp3/TinoRossi.mp3";
 import song13 from "./mp3/FelizNavidad.mp3";
 import song14 from "./mp3/PerryComo.mp3";
 import song15 from "./mp3/JingleBellRock.mp3";
 import song16 from "./mp3/NoelBlanc.mp3";
 import song17 from "./mp3/NoelHardstyle.mp3";
-import song18 from "./mp3/TinoRossi.mp3";
+import song18 from "./mp3/CelKilt.mp3";
 import song19 from "./mp3/OlentzeroEitb.mp3";
 import song20 from "./mp3/Mariachis.mp3";
 import song21 from "./mp3/Villancico.mp3";
@@ -77,7 +77,7 @@ import lottie21 from "./lotties/21.json";
 import lottie22 from "./lotties/22.json";
 import lottie23 from "./lotties/23.json";
 import lottie24 from "./lotties/24.json";
-import lottie25 from "./lotties/25mariahcarey.gif";
+import lottie25 from "./lotties/25.json";
 
 const calendar = [
   {

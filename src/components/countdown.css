@@ -1,27 +1,33 @@
 @font-face {
-    font-family: "Christmas";
-    src: local("Christmas"), url("../Fonts/Christmas.ttf");
-  }
+  font-family: "Christmas";
+  src: local("Christmas"), url("../Fonts/Christmas.ttf");
+}
 
 .countdown-christmas {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.countdown-container {
+  margin-top: 2%;
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 .countdown-container-2 {
-    width: 60%;
-    font-family: Christmas, "Courier New", Courier, monospace;
-    border-style: solid;
-    border-radius: 25px;
-  }
+  width: 60%;
+  font-family: Christmas, "Courier New", Courier, monospace;
+  border-style: solid;
+  border-radius: 25px;
+}
 
 .countdown-christmas {
-    font-size: 3.5em;
-    margin: 5px;
+  font-size: 3.5em;
+  margin: 5px;
 }
 
 .countdown-date {
-    font-size: 3em;
-    padding: 10px;
+  font-size: 3em;
+  padding: 10px;
 }
