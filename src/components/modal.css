@@ -14,9 +14,10 @@
 }
 
 .App-modal {
-  margin-top: -22px;
+  margin-top: -35px;
   overflow-y: hidden;
   position: fixed;
+  z-index: 1000;
   font-family: MerryChristmasStar, "Courier New", Courier, monospace;
   width: 100vw;
   height: 110vh;

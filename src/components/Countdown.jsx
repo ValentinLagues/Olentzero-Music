@@ -43,12 +43,14 @@ function Countdown() {
   });
   return (
     <div className="countdown-container">
-      <h2 className="countdown">Christmas {year} Countdown</h2>
-      {timerComponents.length ? (
-        <div className="countdown">{timerComponents}</div>
-      ) : (
-        <span>Merry Christmas!</span>
-      )}
+      <div className="countdown-container-2">
+        <h3 className="countdown-christmas">Christmas {year} Countdown</h3>
+        {timerComponents.length ? (
+          <div className="countdown-date">{timerComponents}</div>
+        ) : (
+          <span>Merry Christmas!</span>
+        )}
+      </div>
     </div>
   );
 }
