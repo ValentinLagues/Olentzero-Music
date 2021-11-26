@@ -251,3 +251,42 @@
 .day-25:hover {
   background-color: #db012d;
 }
+
+/* ------------------------------------- RESPONSIVE ------------------------------------- */
+
+@media screen and (max-width: 420px) {
+  .grid-avent {
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-areas:
+      "d15 d15 d15 d15 d15 d15 d7 d7 d7 d7 d7 d7 d20 d20 d20"
+      "d15 d15 d15 d15 d15 d15 d7 d7 d7 d7 d7 d7 d20 d20 d20"
+      "d15 d15 d15 d15 d15 d15 d7 d7 d7 d7 d7 d7 d20 d20 d20"
+      "d15 d15 d15 d15 d15 d15 d7 d7 d7 d7 d7 d7 d20 d20 d20"
+      "d21 d21 d21 d21 d21 d21 d2 d2 d24 d24 d24 d24 d24 d24 d24"
+      "d21 d21 d21 d21 d21 d21 d2 d2 d24 d24 d24 d24 d24 d24 d24"
+      "d17 d17 d11 d11 d11 d11 d2 d2 d24 d24 d24 d24 d24 d24 d24"
+      "d17 d17 d11 d11 d11 d11 d2 d2 d24 d24 d24 d24 d24 d24 d24"
+      "d17 d17 d11 d11 d11 d11 d2 d2 d14 d14 d14 d14 d1 d1 d1"
+      "d9 d9 d9 d9 d4 d4 d4 d4 d14 d14 d14 d14 d1 d1 d1"
+      "d9 d9 d9 d9 d4 d4 d4 d4 d14 d14 d14 d14 d1 d1 d1"
+      "d9 d9 d9 d9 d19 d19 d19 d19 d19 d19 d22 d22 d22 d5 d5"
+      "d9 d9 d9 d9 d19 d19 d19 d19 d19 d19 d22 d22 d22 d5 d5"
+      "d3 d3 d3 d3 d19 d19 d19 d19 d19 d19 d22 d22 d22 d5 d5"
+      "d3 d3 d3 d3 d6 d6 d6 d6 d6 d6 d22 d22 d22 d5 d5"
+      "d13 d13 d13 d13 d13 d13 d23 d23 d23 d23 d23 d23 d23 d23 d23"
+      "d13 d13 d13 d13 d13 d13 d23 d23 d23 d23 d23 d23 d23 d23 d23"
+      "d13 d13 d13 d13 d13 d13 d23 d23 d23 d23 d23 d23 d23 d23 d23"
+      "d13 d13 d13 d13 d13 d13 d23 d23 d23 d23 d23 d23 d23 d23 d23"
+      "d13 d13 d13 d13 d13 d13 d23 d23 d23 d23 d23 d23 d23 d23 d23"
+      "d12 d12 d12 d12 d12 d12 d12 d12 d12 d18 d18 d18 d18 d18 d18"
+      "d12 d12 d12 d12 d12 d12 d12 d12 d12 d18 d18 d18 d18 d18 d18"
+      "d16 d16 d16 d16 d16 d16 d10 d10 d10 d18 d18 d18 d18 d18 d18"
+      "d16 d16 d16 d16 d16 d16 d10 d10 d10 d18 d18 d18 d18 d18 d18"
+      "d16 d16 d16 d16 d16 d16 d10 d10 d10 d18 d18 d18 d18 d18 d18"
+      "d8 d8 d8 d8 d8 d8 d8 d8 d25 d25 d25 d25 d25 d25 d25"
+      "d8 d8 d8 d8 d8 d8 d8 d8 d25 d25 d25 d25 d25 d25 d25"
+      "d8 d8 d8 d8 d8 d8 d8 d8 d25 d25 d25 d25 d25 d25 d25"
+      "d8 d8 d8 d8 d8 d8 d8 d8 d25 d25 d25 d25 d25 d25 d25"
+      "d8 d8 d8 d8 d8 d8 d8 d8 d25 d25 d25 d25 d25 d25 d25";
+  }
+}
