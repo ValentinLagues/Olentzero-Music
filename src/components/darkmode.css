@@ -18,9 +18,13 @@
 
 .dark-mode-label {
   font-size: 2rem;
-  color: white;
+  font-family: MeltedMonster, "Courier New", Courier, monospace;
+  color: rgb(38, 79, 139);
   margin-right: 1rem;
-  text-shadow: 10px 10px 5px rgb(177, 0, 0);
+  padding: 0.5rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  border: none;
 }
 .mode {
   font-family: ChristmasSquad, "Courier New", Courier, monospace;
@@ -31,7 +35,11 @@
 }
 .mode-label {
   font-size: 2rem;
-  color: white;
+  color: rgb(177, 0, 0);
   margin-right: 1rem;
-  text-shadow: 10px 10px 5px black;
+  font-family: ChristmasSquad, "Courier New", Courier, monospace;
+  padding: 0.5rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  border: none;
 }
