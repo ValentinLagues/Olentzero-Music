@@ -3,6 +3,11 @@
   src: local("ChristmasSquad"), url("../Fonts/ChristmasSquad.otf");
 }
 
+@font-face {
+  font-family: "MeltedMonster";
+  src: local("MeltedMonster"), url("../Fonts/MeltedMonster.ttf");
+}
+
 .countdown-container {
   margin-top: 2%;
   display: flex;
@@ -13,6 +18,12 @@
 .countdown-container-2 {
   width: 60%;
   font-family: ChristmasSquad, "Courier New", Courier, monospace;
+  color:white;
+}
+
+.dark-countdown-container-2 {
+  width: 60%;
+  font-family: MeltedMonster, "Courier New", Courier, monospace;
   color:white;
 }
 

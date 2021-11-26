@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Snow darkMode={darkMode} />
       <Modal />
-      <Countdown />
+      <Countdown darkMode={darkMode} />
       <DarkMode darkMode={darkMode} setDarkMode={setDarkMode} />
       <CardList darkMode={darkMode}/>
     </div>
