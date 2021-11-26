@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./cardslist.css";
 import Card from "./Card";
+import CardDark from "./CardDark";
 import calendar from "../data";
 import darkCalendar from "../dark-data";
 
@@ -11,7 +12,7 @@ const CardsList = ({ darkMode }) => {
     <div className={darkMode ? "grid-advent-dark" : "grid-advent"}>
       {darkMode
         ? darkCalendar.map((day, index) => (
-            <Card
+            <CardDark
               key={index}
               number={day.number}
               image={day.image}
