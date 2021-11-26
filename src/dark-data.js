@@ -53,32 +53,31 @@ import song24 from "./mp3-dark/XFiles.mp3";
 import song25 from "./mp3-dark/MrJack.mp3";
 
 // LOTTIE
-import lottie1 from "./lotties-dark/AHS.gif";
-import lottie2 from "./lotties-dark/Alien.gif";
-import lottie3 from "./lotties-dark/Beetlejuice.gif";
-import lottie4 from "./lotties-dark/Chucky.gif";
-import lottie5 from "./lotties-dark/Exorcist.gif";
-import lottie6 from "./lotties-dark/Freddy.gif";
-import lottie7 from "./lotties-dark/Ghostbusters.gif";
-import lottie8 from "./lotties-dark/Halloween.gif";
-import lottie9 from "./lotties-dark/Halloween3.gif";
-import lottie10 from "./lotties-dark/Hellraiser.gif";
-import lottie11 from "./lotties-dark/HillsHaveEyes.gif";
-import lottie12 from "./lotties-dark/Jason.gif";
-import lottie13 from "./lotties-dark/Jaws.gif";
-import lottie14 from "./lotties-dark/Leatherface.gif";
-import lottie15 from "./lotties-dark/Nosferatu.gif";
-import lottie16 from "./lotties-dark/Prometheus.gif";
-import lottie17 from "./lotties-dark/Psycho.gif";
-import lottie18 from "./lotties-dark/Saw.gif";
-import lottie19 from "./lotties-dark/SilentHill.gif";
-import lottie20 from "./lotties-dark/StrangerThings.gif";
-import lottie21 from "./lotties-dark/TheOmen.gif";
-import lottie22 from "./lotties-dark/TheThing.gif";
-import lottie23 from "./lotties-dark/TwilightZone.gif";
-import lottie24 from "./lotties-dark/XFiles.gif";
-import lottie25 from "./lotties-dark/MrJack.gif";
-
+import lottie1 from "./lotties-dark/AHS.json";
+import lottie2 from "./lotties-dark/Alien.json";
+import lottie3 from "./lotties-dark/Exorcist.json";
+import lottie4 from "./lotties-dark/Chucky.json";
+import lottie5 from "./lotties-dark/Saw.json";
+import lottie6 from "./lotties-dark/Freddy.json";
+import lottie7 from "./lotties-dark/Ghostbusters.json";
+import lottie8 from "./lotties-dark/Halloween.json";
+import lottie9 from "./lotties-dark/Psycho.json";
+import lottie10 from "./lotties-dark/Hellraiser.json";
+import lottie11 from "./lotties-dark/HillsHaveEyes.json";
+import lottie12 from "./lotties-dark/TheThing.json";
+import lottie13 from "./lotties-dark/Jaws.json";
+import lottie14 from "./lotties-dark/Leatherface.json";
+import lottie15 from "./lotties-dark/Nosferatu.json";
+import lottie16 from "./lotties-dark/Prometheus.json";
+import lottie17 from "./lotties-dark/Halloween3.json";
+import lottie18 from "./lotties-dark/Beetlejuice.json";
+import lottie19 from "./lotties-dark/SilentHill.json";
+import lottie20 from "./lotties-dark/StrangerThings.json";
+import lottie21 from "./lotties-dark/TheOmen.json";
+import lottie22 from "./lotties-dark/Jason.json";
+import lottie23 from "./lotties-dark/TwilightZone.json";
+import lottie24 from "./lotties-dark/XFiles.json";
+import lottie25 from "./lotties-dark/MrJack.json";
 
 const darkCalendar = [
   {
