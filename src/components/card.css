@@ -1,5 +1,4 @@
 .cards-container {
-  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,6 +8,7 @@
   border-top: dashed 2px transparent;
   border-bottom: dashed 2px transparent;
   border-right: solid 2px transparent;
+  cursor: pointer;
 }
 
 .cards-container,
@@ -33,7 +33,7 @@
 }
 
 .overlay {
-  background-color: rgb(126, 9, 9);
+  background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
   top: 0;
   left: 0;
@@ -43,8 +43,7 @@
   align-items: center;
   justify-content: center;
   color: white;
-  transition: 0.6s;
-  opacity: 1;
+  transition: 0.4s;
 }
 
 .overlay:hover {
