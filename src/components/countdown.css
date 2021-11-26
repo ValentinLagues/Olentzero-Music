@@ -3,6 +3,11 @@
   src: local("ChristmasSquad"), url("../Fonts/ChristmasSquad.otf");
 }
 
+@font-face {
+  font-family: "MeltedMonster";
+  src: local("MeltedMonster"), url("../Fonts/MeltedMonster.ttf");
+}
+
 .countdown-container {
   margin-top: 2%;
   display: flex;
@@ -13,16 +18,28 @@
 .countdown-container-2 {
   width: 60%;
   font-family: ChristmasSquad, "Courier New", Courier, monospace;
-  color:white;
+  color: white;
+}
+
+.dark-countdown-container-2 {
+  width: 60%;
+  font-family: MeltedMonster, "Courier New", Courier, monospace;
+  color: white;
+  text-shadow: 10px 10px 5px rgb(177, 0, 0);
+}
+.dark-countdown-christmas {
+  font-size: 4.5em;
+  margin: 5px;
+  text-shadow: 10px 10px 5px rgb(177, 0, 0);
 }
 
 .countdown-christmas {
-  font-size: 3.5em;
+  font-size: 4.5em;
   margin: 5px;
   text-shadow: 10px 10px 5px black;
 }
 
 .countdown-date {
-  font-size: 2.5em;
+  font-size: 3em;
   padding: 10px;
 }

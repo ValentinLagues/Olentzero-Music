@@ -9,15 +9,15 @@ import Snow from "./components/Snow";
 function App() {
   const [darkMode, setDarkMode] = useState(false);
 
-  console.log(darkMode)
+  console.log(darkMode);
 
   return (
-    <div className="App">
+    <div className={darkMode ? "App-darkMode" : "App"}>
       <Snow darkMode={darkMode} />
       <Modal />
-      <Countdown />
+      <Countdown darkMode={darkMode} />
       <DarkMode darkMode={darkMode} setDarkMode={setDarkMode} />
-      <CardList darkMode={darkMode}/>
+      <CardList darkMode={darkMode} />
     </div>
   );
 }

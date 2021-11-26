@@ -1,7 +1,17 @@
-body {
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
   background-image: url("../src/images/background.jpg");
+  background-size: cover;
+  text-align: center;
+  padding: 2% 2%;
 }
 
-.App {
+.App-darkMode {
+  background-image: url("../src/images/horror2.jpg");
+  background-size: cover;
   text-align: center;
+  padding: 2% 2%;
 }
