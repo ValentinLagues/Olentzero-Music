@@ -6,12 +6,13 @@ import "./cardslist.css";
 
 const Card = ({ track, number, image, lottie, activeCard, setActiveCard }) => {
   const [cardReturn, setCardreturn] = useState(true);
+
   const defaultOptions = {
     loop: true,
     autoplay: true,
     animationData: lottie,
   };
-  
+
   return (
     <>
       <div
