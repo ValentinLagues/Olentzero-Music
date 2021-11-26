@@ -28,7 +28,8 @@
 }
 
 .cards-container img {
-  min-width: fit-content;
+  width: 6vw;
+  height: auto;
 }
 
 .overlay {
