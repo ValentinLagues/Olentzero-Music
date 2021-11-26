@@ -20,7 +20,7 @@ function Countdown() {
   };
 
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
-  const [year] = useState(new Date().getFullYear());
+  // const [year] = useState(new Date().getFullYear());
 
   useEffect(() => {
     setTimeout(() => {
@@ -44,7 +44,7 @@ function Countdown() {
   return (
     <div className="countdown-container">
       <div className="countdown-container-2">
-        <h3 className="countdown-christmas">Christmas {year} Countdown</h3>
+        <h3 className="countdown-christmas">Christmas Countdown</h3>
         {timerComponents.length ? (
           <div className="countdown-date">{timerComponents}</div>
         ) : (
