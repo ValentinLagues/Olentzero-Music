@@ -2,8 +2,11 @@ import "./darkmode.css";
 
 const DarkMode = ({ setDarkMode, darkMode }) => {
   return (
-    <div className="dark-mode">
-      <label className="dark-mode-label" htmlFor="checkbox">
+    <div className={darkMode ? "dark-mode" : "mode"}>
+      <label
+        className={darkMode ? "dark-mode-label" : "mode-label"}
+        htmlFor="checkbox"
+      >
         Dark Mode
       </label>
       <input
