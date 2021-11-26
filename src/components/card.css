@@ -77,8 +77,11 @@
 
 @media screen and (max-width: 420px) {
   .overlay h1 {
-    font-size: 0.9em;
-    text-shadow: black 0.5px 0.5px;
+    font-size: 1.2em;
+    text-shadow: black 1.5px 1px;
+    position: absolute;
+    top: 5%;
+    right: 5%;
   }
 
   .overlay {
@@ -86,9 +89,21 @@
   }
 
   .cards-container {
-    border-left: dashed 1px black;
-    border-top: dashed 1px black;
-    border-bottom: dashed 1px black;
-    border-right: solid 1px black;
+    border-left: dashed 2px black;
+    border-top: dashed 2px black;
+    border-bottom: dashed 2px black;
+    border-right: solid 2px black;
+    width: 26vw;
+    height: 26vw;
+    position: relative;
+  }
+
+  .cards-container:nth-last-child(1) {
+    width: 85vw;
+  }
+
+  .cards-container img {
+    width: 15vw;
+    height: auto;
   }
 }
