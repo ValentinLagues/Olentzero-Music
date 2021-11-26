@@ -3,11 +3,6 @@
   src: local("Christmas"), url("../Fonts/Christmas.ttf");
 }
 
-.countdown-christmas {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
 .countdown-container {
   margin-top: 2%;
   display: flex;
