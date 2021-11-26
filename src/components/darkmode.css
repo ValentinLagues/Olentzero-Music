@@ -1,5 +1,7 @@
 .dark-mode {
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 1rem;
 }
 
@@ -7,8 +9,5 @@
     font-size: 1.5rem;
     font-weight: 900;
     color: white;
-}
-
-.dark-mode-checkbox {
-
+    margin-right: 1rem;
 }
