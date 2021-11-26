@@ -44,7 +44,7 @@ function Countdown() {
   return (
     <div className="countdown-container">
       <div className="countdown-container-2">
-        <h3 className="countdown-christmas">Christmas Countdown</h3>
+        <p className="countdown-christmas">(Christmas Countdown)</p>
         {timerComponents.length ? (
           <div className="countdown-date">{timerComponents}</div>
         ) : (

@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Christmas";
-  src: local("Christmas"), url("../Fonts/Christmas.ttf");
+  font-family: "ChristmasSquad";
+  src: local("ChristmasSquad"), url("../Fonts/ChristmasSquad.otf");
 }
 
 .countdown-container {
@@ -12,17 +12,17 @@
 
 .countdown-container-2 {
   width: 60%;
-  font-family: Christmas, "Courier New", Courier, monospace;
-  border-style: solid;
-  border-radius: 25px;
+  font-family: ChristmasSquad, "Courier New", Courier, monospace;
+  color:white;
 }
 
 .countdown-christmas {
   font-size: 3.5em;
   margin: 5px;
+  text-shadow: 10px 10px 5px black;
 }
 
 .countdown-date {
-  font-size: 3em;
+  font-size: 2.5em;
   padding: 10px;
 }
