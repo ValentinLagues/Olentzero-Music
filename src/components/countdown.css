@@ -25,6 +25,12 @@
   width: 60%;
   font-family: MeltedMonster, "Courier New", Courier, monospace;
   color: white;
+  text-shadow: 10px 10px 5px rgb(177, 0, 0);
+}
+.dark-countdown-christmas {
+  font-size: 4.5em;
+  margin: 5px;
+  text-shadow: 10px 10px 5px rgb(177, 0, 0);
 }
 
 .countdown-christmas {
