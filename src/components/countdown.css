@@ -3,7 +3,7 @@
     src: local("Christmas"), url("../Fonts/Christmas.ttf");
   }
 
-.countdown-christmas {
+.countdown-container {
     width: 100%;
     display: flex;
     justify-content: center;
