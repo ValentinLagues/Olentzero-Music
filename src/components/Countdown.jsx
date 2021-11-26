@@ -48,7 +48,6 @@ function Countdown({ darkMode }) {
           darkMode ? "dark-countdown-container-2" : "countdown-container-2"
         }
       >
-        <h1 className="main-title">Olentzero 0 Music</h1>
         <p
           className={
             darkMode ? "dark-countdown-christmas" : "countdown-christmas"
