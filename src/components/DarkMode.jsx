@@ -9,9 +9,9 @@ const DarkMode = ({ setDarkMode, darkMode }) => {
       >
         Dark Mode
       </label>
-      <input
+      <button
         className="dark-mode-checkbox"
-        type="checkbox"
+        type="button"
         value={darkMode}
         onClick={() => setDarkMode(!darkMode)}
       />
