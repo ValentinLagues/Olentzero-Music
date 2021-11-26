@@ -75,13 +75,13 @@
     border-top: dashed 1px black;
     border-bottom: dashed 1px black;
     border-right: solid 1px black;
-    width: 20vw;
-    height: 20vw;
+    width: 15vw;
+    height: 15vw;
     position: relative;
   }
 
   .cards-container:nth-last-child(1) {
-    width: 85vw;
+    width: 50vw;
   }
 
   .cards-container img {

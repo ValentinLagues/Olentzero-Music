@@ -8,6 +8,19 @@
   src: local("MeltedMonster"), url("../Fonts/MeltedMonster.ttf");
 }
 
+@font-face {
+  font-family: "MerryChristmasStar";
+  src: local("MerryChristmasStar"), url("../Fonts/MerryChristmasStar.ttf");
+}
+
+.main-title {
+  font-family: MerryChristmasStar, "Courier New", Courier, monospace;
+  font-size: 7em;
+  color: #ac1018;
+  text-shadow: 3px 3px 1px #568d66;
+  letter-spacing: 10px;
+}
+
 .countdown-container {
   margin-top: 2%;
   display: flex;
@@ -29,18 +42,103 @@
   text-shadow: 10px 10px 5px rgb(177, 0, 0);
 }
 .dark-countdown-christmas {
-  font-size: 4.5em;
+  font-size: 2.8em;
   margin: 5px;
   text-shadow: 10px 10px 5px rgb(177, 0, 0);
 }
 
 .countdown-christmas {
-  font-size: 4.5em;
+  font-size: 2.8em;
   margin: 5px;
   text-shadow: 10px 10px 5px black;
 }
 
 .countdown-date {
-  font-size: 3em;
+  font-size: 1.8em;
   padding: 10px;
+}
+
+@media screen and (max-width: 812px) {
+  .main-title {
+    font-size: 4em;
+    color: #ffffff;
+    text-shadow: 3px 3px 1px #ac1018;
+    letter-spacing: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+
+  .countdown-container {
+    margin-top: 2%;
+    display: flex;
+    width: 95vw;
+    justify-content: center;
+  }
+
+  .countdown-container-2 {
+    width: 75%;
+    font-family: ChristmasSquad, "Courier New", Courier, monospace;
+    color: white;
+    text-shadow: 10px 10px 5px black;
+  }
+
+  .countdown-christmas {
+    font-size: 2.5em;
+    margin: 0;
+  }
+
+  .countdown-date {
+    font-size: 1.4em;
+    padding: 10px;
+  }
+
+  .dark-countdown-container-2 {
+    width: 100%;
+  }
+  .dark-countdown-christmas {
+    font-size: 2.5em;
+    margin: 5px;
+    text-shadow: 10px 10px 5px rgb(177, 0, 0);
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .main-title {
+    font-size: 2em;
+    color: #ffffff;
+    text-shadow: 3px 3px 1px #ac1018;
+    letter-spacing: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+
+  .countdown-container {
+    margin-top: 2%;
+    display: flex;
+    width: 95vw;
+    justify-content: center;
+  }
+
+  .countdown-container-2 {
+    width: 100%;
+    font-family: ChristmasSquad, "Courier New", Courier, monospace;
+    color: white;
+    text-shadow: 10px 10px 5px black;
+  }
+
+  .countdown-christmas {
+    font-size: 1.7em;
+    margin: 0;
+  }
+
+  .countdown-date {
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+  .dark-countdown-christmas {
+    font-size: 1.5em;
+    margin: 5px;
+    text-shadow: 10px 10px 5px rgb(177, 0, 0);
+  }
 }
