@@ -1,12 +1,51 @@
-.container {
+.cards-container {
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #082844ab;
-  width: 300px;
-  height: 300px;
-  animation-duration: 2s;
+  position: relative;
+  margin: 5px;
+  border-left: dashed 2px transparent;
+  border-top: dashed 2px transparent;
+  border-bottom: dashed 2px transparent;
+  border-right: solid 2px transparent;
 }
+
+.cards-container,
+.overlay {
+  border-radius: 5px;
+}
+
+.cards-container:hover {
+  border-left: dashed 2px black;
+  border-top: dashed 2px black;
+  border-bottom: dashed 2px black;
+  border-right: solid 2px black;
+}
+
 .player {
   visibility: hidden;
+}
+
+.cards-container img {
+  min-width: fit-content;
+}
+
+.overlay {
+  background-color: rgb(126, 9, 9);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: 0.6s;
+  opacity: 1;
+}
+
+.overlay:hover {
+  opacity: 0;
 }
