@@ -19,6 +19,7 @@
   width: 60%;
   font-family: ChristmasSquad, "Courier New", Courier, monospace;
   color: white;
+  text-shadow: 10px 10px 5px black;
 }
 
 .dark-countdown-container-2 {

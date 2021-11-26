@@ -1,13 +1,37 @@
+@font-face {
+  font-family: "ChristmasSquad";
+  src: local("ChristmasSquad"), url("../Fonts/ChristmasSquad.otf");
+}
+
+@font-face {
+  font-family: "MeltedMonster";
+  src: local("MeltedMonster"), url("../Fonts/MeltedMonster.ttf");
+}
+
 .dark-mode {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
+  font-family: MeltedMonster, "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
 }
 
 .dark-mode-label {
-    font-size: 1.5rem;
-    font-weight: 900;
-    color: white;
-    margin-right: 1rem;
+  font-size: 2rem;
+  color: white;
+  margin-right: 1rem;
+  text-shadow: 10px 10px 5px rgb(177, 0, 0);
+}
+.mode {
+  font-family: ChristmasSquad, "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.mode-label {
+  font-size: 2rem;
+  color: white;
+  margin-right: 1rem;
+  text-shadow: 10px 10px 5px black;
 }

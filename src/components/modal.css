@@ -14,6 +14,8 @@
 }
 
 .App-modal {
+  display: flex;
+  flex-wrap: wrap;
   margin-top: -35px;
   margin-left: -2%;
   position: fixed;
@@ -29,6 +31,9 @@
   align-items: center;
   justify-content: center;
   font-size: 8vw;
+}
+.App-modal p {
+  font-size: 5vw;
 }
 .App-title {
   animation-name: slideIn;
