@@ -251,3 +251,33 @@
 .day-25:hover {
   background-color: #db012d;
 }
+
+/* DARK MODE */
+.grid-avent-dark {
+  display: grid;
+  max-width: 95%;
+  height: 100%;
+  margin: 2% auto;
+  grid-template-columns: repeat(25, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    "d15 d15 d15 d15 d15 d15 d7 d7 d7 d7 d7 d7 d20 d20 d20 d13 d13 d13 d13 d23 d23 d23 d23 d23 d23"
+    "d15 d15 d15 d15 d15 d15 d7 d7 d7 d7 d7 d7 d20 d20 d20 d13 d13 d13 d13 d23 d23 d23 d23 d23 d23"
+    "d15 d15 d15 d15 d15 d15 d7 d7 d7 d7 d7 d7 d20 d20 d20 d13 d13 d13 d13 d23 d23 d23 d23 d23 d23"
+    "d15 d15 d15 d15 d15 d15 d7 d7 d7 d7 d7 d7 d20 d20 d20 d13 d13 d13 d13 d23 d23 d23 d23 d23 d23"
+    "d21 d21 d21 d21 d21 d21 d2 d2 d24 d24 d24 d24 d24 d24 d24 d13 d13 d13 d13 d23 d23 d23 d23 d23 d23"
+    "d21 d21 d21 d21 d21 d21 d2 d2 d24 d24 d24 d24 d24 d24 d24 d12 d12 d12 d12 d12 d12 d12 d12 d18 d18"
+    "d17 d17 d11 d11 d11 d11 d2 d2 d24 d24 d24 d24 d24 d24 d24 d12 d12 d12 d12 d12 d12 d12 d12 d18 d18"
+    "d17 d17 d11 d11 d11 d11 d2 d2 d24 d24 d24 d24 d24 d24 d24 d16 d16 d16 d16 d16 d16 d10 d10 d18 d18"
+    "d17 d17 d11 d11 d11 d11 d2 d2 d14 d14 d14 d14 d1 d1 d1 d16 d16 d16 d16 d16 d16 d10 d10 d18 d18"
+    "d9 d9 d9 d9 d4 d4 d4 d4 d14 d14 d14 d14 d1 d1 d1 d16 d16 d16 d16 d16 d16 d10 d10 d18 d18"
+    "d9 d9 d9 d9 d4 d4 d4 d4 d14 d14 d14 d14 d1 d1 d1 d8 d8 d8 d8 d25 d25 d25 d25 d25 d25"
+    "d9 d9 d9 d9 d19 d19 d19 d19 d19 d19 d22 d22 d22 d5 d5 d8 d8 d8 d8 d25 d25 d25 d25 d25 d25"
+    "d9 d9 d9 d9 d19 d19 d19 d19 d19 d19 d22 d22 d22 d5 d5 d8 d8 d8 d8 d25 d25 d25 d25 d25 d25"
+    "d3 d3 d3 d3 d19 d19 d19 d19 d19 d19 d22 d22 d22 d5 d5 d8 d8 d8 d8 d25 d25 d25 d25 d25 d25"
+    "d3 d3 d3 d3 d6 d6 d6 d6 d6 d6 d22 d22 d22 d5 d5 d8 d8 d8 d8 d25 d25 d25 d25 d25 d25";
+}
+
+.grid-avent-dark div {
+  filter: grayscale(100%);
+}
