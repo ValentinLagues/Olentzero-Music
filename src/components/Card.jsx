@@ -38,7 +38,7 @@ const Card = ({ track, number, image, lottie, activeCard, setActiveCard }) => {
               url={track}
               controls
               playing={activeCard === number}
-              volume={0.1}
+              volume={0.8}
             />
             <Lottie options={defaultOptions} />
           </div>
