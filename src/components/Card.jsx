@@ -11,7 +11,7 @@ const Card = ({ track, number, image, lottie, activeCard, setActiveCard }) => {
     autoplay: true,
     animationData: lottie,
   };
-  console.log(lottie);
+  
   return (
     <>
       <div

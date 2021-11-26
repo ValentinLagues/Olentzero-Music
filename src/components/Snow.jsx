@@ -1,39 +1,39 @@
 import "./snow.css";
 
 
-const Snow = () => {
+const Snow = ({darkMode}) => {
 
     return (
-        <div class="snowflakes" aria-hidden="true">
-            <div class="snowflake">
-            ❅
+        <div class={darkMode ? "dark-snowflakes" : "snowflakes"} aria-hidden="true">
+            <div class={darkMode ? "dark-snowflake" : "snowflake"}>
+            {darkMode ? "🩸" : "❄"}
             </div>
-            <div class="snowflake">
-            ❅
+            <div class={darkMode ? "dark-snowflake" : "snowflake"}>
+            {darkMode ? "🩸" : "❄"}
             </div>
-            <div class="snowflake">
-            ❆
+            <div class={darkMode ? "dark-snowflake" : "snowflake"}>
+            {darkMode ? "🩸" : "❄"}
             </div>
-            <div class="snowflake">
-            ❄
+            <div class={darkMode ? "dark-snowflake" : "snowflake"}>
+            {darkMode ? "🩸" : "❄"}
             </div>
-            <div class="snowflake">
-            ❅
+            <div class={darkMode ? "dark-snowflake" : "snowflake"}>
+            {darkMode ? "🩸" : "❄"}
             </div>
-            <div class="snowflake">
-            ❆
+            <div class={darkMode ? "dark-snowflake" : "snowflake"}>
+            {darkMode ? "🩸" : "❄"}
             </div>
-            <div class="snowflake">
-            ❄
+            <div class={darkMode ? "dark-snowflake" : "snowflake"}>
+            {darkMode ? "🩸" : "❄"}
             </div>
-            <div class="snowflake">
-            ❅
+            <div class={darkMode ? "dark-snowflake" : "snowflake"}>
+            {darkMode ? "🩸" : "❄"}
             </div>
-            <div class="snowflake">
-            ❆
+            <div class={darkMode ? "dark-snowflake" : "snowflake"}>
+            {darkMode ? "🩸" : "❄"}
             </div>
-            <div class="snowflake">
-            ❄
+            <div class={darkMode ? "dark-snowflake" : "snowflake"}>
+            {darkMode ? "🩸" : "❄"}
             </div>
         </div>
     )
