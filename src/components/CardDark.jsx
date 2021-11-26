@@ -12,7 +12,7 @@ const CardDark = ({
   activeCard,
   setActiveCard,
 }) => {
-  const [cardReturn, setCardreturn] = useState(true);
+  const [cardDarkReturn, setCardDarkreturn] = useState(true);
 
   const defaultOptions = {
     loop: true,
@@ -28,17 +28,20 @@ const CardDark = ({
           activeCard === number ? setActiveCard(0) : setActiveCard(number)
         }
       >
-        {cardReturn && (
+        {cardDarkReturn && (
           <>
-            <div onClick={() => setCardreturn(!cardReturn)} className="overlay">
+            <div
+              onClick={() => setCardDarkreturn(!cardDarkReturn)}
+              className="overlay"
+            >
               <h1>{number}</h1>
             </div>
             <img src={image} alt="{}" />
           </>
         )}
 
-        {!cardReturn && (
-          <div>
+        {!cardDarkReturn && (
+          <div onClick={() => setCardDarkreturn(!cardDarkReturn)}>
             <ReactPlayer
               width="0"
               height="0"
