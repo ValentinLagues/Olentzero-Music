@@ -8,7 +8,9 @@ const Modal = () => {
     <>
       {hideModal && (
         <div className="App-modal" onClick={() => setHideModal(false)}>
-          <div className="App-title">Olentzero 0 Music</div>
+          <div className="App-title">
+            Olentzero 0 Music <p>The musical advent calendar</p>
+          </div>
         </div>
       )}
     </>
