@@ -4,15 +4,16 @@
 }
 .App {
   background-image: url("../src/images/background.jpg");
+  background-size: cover;
 }
 
 .App-darkMode {
   background-image: url("../src/images/horror2.jpg");
+  background-size: cover;
 }
 
 .App,
 .App-darkMode {
-  background-size: cover;
   text-align: center;
   padding: 2% 2%;
 }
@@ -20,7 +21,7 @@
 @media screen and (max-width: 812px) {
   .App,
   .App-darkMode {
-    height: 200vh;
+    height: 280vh;
   }
 }
 

@@ -31,7 +31,7 @@ const Card = ({ track, number, image, lottie, activeCard, setActiveCard }) => {
         )}
 
         {!cardReturn && (
-          <div>
+          <div onClick={() => setCardreturn(!cardReturn)}>
             <ReactPlayer
               width="0"
               height="0"
