@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/olentzero-music/static/css/main.40ae5482.chunk.css",
-    "main.js": "/olentzero-music/static/js/main.b8504472.chunk.js",
-    "main.js.map": "/olentzero-music/static/js/main.b8504472.chunk.js.map",
+    "main.css": "/olentzero-music/static/css/main.4c7321ac.chunk.css",
+    "main.js": "/olentzero-music/static/js/main.df3fd9eb.chunk.js",
+    "main.js.map": "/olentzero-music/static/js/main.df3fd9eb.chunk.js.map",
     "runtime-main.js": "/olentzero-music/static/js/runtime-main.77b93274.js",
     "runtime-main.js.map": "/olentzero-music/static/js/runtime-main.77b93274.js.map",
     "static/js/2.cdd11e84.chunk.js": "/olentzero-music/static/js/2.cdd11e84.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.f3e10ad7.chunk.js": "/olentzero-music/static/js/3.f3e10ad7.chunk.js",
     "static/js/3.f3e10ad7.chunk.js.map": "/olentzero-music/static/js/3.f3e10ad7.chunk.js.map",
     "index.html": "/olentzero-music/index.html",
-    "static/css/main.40ae5482.chunk.css.map": "/olentzero-music/static/css/main.40ae5482.chunk.css.map",
+    "static/css/main.4c7321ac.chunk.css.map": "/olentzero-music/static/css/main.4c7321ac.chunk.css.map",
     "static/js/2.cdd11e84.chunk.js.LICENSE.txt": "/olentzero-music/static/js/2.cdd11e84.chunk.js.LICENSE.txt",
     "static/media/11.20f65b92.png": "/olentzero-music/static/media/11.20f65b92.png",
     "static/media/13.9ec8c854.png": "/olentzero-music/static/media/13.9ec8c854.png",
@@ -26,6 +26,7 @@
     "static/media/AiOlentzero.0b1d8373.mp3": "/olentzero-music/static/media/AiOlentzero.0b1d8373.mp3",
     "static/media/Alien.f3dfa57c.mp3": "/olentzero-music/static/media/Alien.f3dfa57c.mp3",
     "static/media/ArianaGrande-LastChristmas.61a4fa19.mp3": "/olentzero-music/static/media/ArianaGrande-LastChristmas.61a4fa19.mp3",
+    "static/media/modal.css": "/olentzero-music/static/media/MerryChristmasStar.25a7ee2f.ttf",
     "static/media/Beetlejuice.ced3a242.mp3": "/olentzero-music/static/media/Beetlejuice.ced3a242.mp3",
     "static/media/CelKilt.2af9c692.mp3": "/olentzero-music/static/media/CelKilt.2af9c692.mp3",
     "static/media/darkmode.css": "/olentzero-music/static/media/MeltedMonster.e388d190.ttf",
@@ -49,7 +50,6 @@
     "static/media/Leatherface.210144e7.mp3": "/olentzero-music/static/media/Leatherface.210144e7.mp3",
     "static/media/Mariachis.c6331eda.mp3": "/olentzero-music/static/media/Mariachis.c6331eda.mp3",
     "static/media/MariahCarey.2c787d6b.mp3": "/olentzero-music/static/media/MariahCarey.2c787d6b.mp3",
-    "static/media/modal.css": "/olentzero-music/static/media/MerryChristmasStar.25a7ee2f.ttf",
     "static/media/MrJack.2d059cd1.mp3": "/olentzero-music/static/media/MrJack.2d059cd1.mp3",
     "static/media/NoelBlanc.d7105ebc.mp3": "/olentzero-music/static/media/NoelBlanc.d7105ebc.mp3",
     "static/media/NoelHardstyle.e66197ea.mp3": "/olentzero-music/static/media/NoelHardstyle.e66197ea.mp3",
@@ -79,7 +79,7 @@
   "entrypoints": [
     "static/js/runtime-main.77b93274.js",
     "static/js/2.cdd11e84.chunk.js",
-    "static/css/main.40ae5482.chunk.css",
-    "static/js/main.b8504472.chunk.js"
+    "static/css/main.4c7321ac.chunk.css",
+    "static/js/main.df3fd9eb.chunk.js"
   ]
 }
