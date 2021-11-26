@@ -1,5 +1,5 @@
-.grid-avent,
-.grid-avent-dark {
+.grid-advent,
+.grid-advent-dark {
   display: grid;
   max-width: 95%;
   height: 100%;
@@ -29,17 +29,9 @@
   background-color: #fefefe;
 }
 
-.day-1:hover {
-  background-color: #fefefe;
-}
-
 .day-2 {
   grid-area: d2;
   flex-direction: column;
-  background-color: #568d66;
-}
-
-.day-2:hover {
   background-color: #568d66;
 }
 
@@ -48,16 +40,8 @@
   background-color: #840c12;
 }
 
-.day-3:hover {
-  background-color: #840c12;
-}
-
 .day-4 {
   grid-area: d4;
-  background-color: #db012d;
-}
-
-.day-4:hover {
   background-color: #db012d;
 }
 
@@ -67,16 +51,8 @@
   background-color: #fefefe;
 }
 
-.day-5:hover {
-  background-color: #fefefe;
-}
-
 .day-6 {
   grid-area: d6;
-  background-color: #004733;
-}
-
-.day-6:hover {
   background-color: #004733;
 }
 
@@ -85,16 +61,8 @@
   background-color: #004733;
 }
 
-.day-7:hover {
-  background-color: #004733;
-}
-
 .day-8 {
   grid-area: d8;
-  background-color: #840c12;
-}
-
-.day-8:hover {
   background-color: #840c12;
 }
 
@@ -103,16 +71,8 @@
   background-color: #840c12;
 }
 
-.day-9:hover {
-  background-color: #840c12;
-}
-
 .day-10 {
   grid-area: d10;
-  background-color: #840c12;
-}
-
-.day-10:hover {
   background-color: #840c12;
 }
 
@@ -121,16 +81,8 @@
   background-color: #db012d;
 }
 
-.day-11:hover {
-  background-color: #db012d;
-}
-
 .day-12 {
   grid-area: d12;
-  background-color: #fefefe;
-}
-
-.day-12:hover {
   background-color: #fefefe;
 }
 
@@ -139,16 +91,8 @@
   background-color: #004733;
 }
 
-.day-13:hover {
-  background-color: #004733;
-}
-
 .day-14 {
   grid-area: d14;
-  background-color: #568d66;
-}
-
-.day-14:hover {
   background-color: #568d66;
 }
 
@@ -157,25 +101,13 @@
   background-color: #db012d;
 }
 
-.day-15:hover {
-  background-color: #db012d;
-}
-
 .day-16 {
   grid-area: d16;
   background-color: #568d66;
 }
 
-.day-16:hover {
-  background-color: #568d66;
-}
-
 .day-17 {
   grid-area: d17;
-  background-color: #568d66;
-}
-
-.day-17:hover {
   background-color: #568d66;
 }
 
@@ -185,16 +117,8 @@
   background-color: #f3f5f7;
 }
 
-.day-18:hover {
-  background-color: #568d66;
-}
-
 .day-19 {
   grid-area: d19;
-  background-color: #db012d;
-}
-
-.day-19:hover {
   background-color: #db012d;
 }
 
@@ -203,16 +127,8 @@
   background-color: #568d66;
 }
 
-.day-20:hover {
-  background-color: #568d66;
-}
-
 .day-21 {
   grid-area: d21;
-  background-color: #fefefe;
-}
-
-.day-21:hover {
   background-color: #fefefe;
 }
 
@@ -221,16 +137,8 @@
   background-color: #004733;
 }
 
-.day-22:hover {
-  background-color: #004733;
-}
-
 .day-23 {
   grid-area: d23;
-  background-color: #840c12;
-}
-
-.day-23:hover {
   background-color: #840c12;
 }
 
@@ -239,71 +147,23 @@
   background-color: #db012d;
 }
 
-.day-24:hover {
-  background-color: #db012d;
-}
-
 .day-25 {
   grid-area: d25;
   background-color: #004733;
 }
 
-.day-25:hover {
-  background-color: #004733;
-}
-
 /* DARK MODE */
-.grid-avent-dark div {
+.grid-advent-dark div {
   filter: grayscale(100%);
 }
 
 /* ------------------------------------- RESPONSIVE ------------------------------------- */
-
-@media screen and (max-width: 420px) {
-  .grid-avent,
-  .grid-avent-dark {
+@media screen and (max-width: 812px) {
+  .grid-advent,
+  .grid-advent-dark {
     display: flex;
     flex-wrap: wrap;
     height: 100vh;
     justify-content: center;
-  }
-}
-
-@media screen and (max-width: 20px) {
-  .grid-avent,
-  .grid-avent-dark {
-    grid-template-columns: repeat(15, 1fr);
-    height: 85vh;
-    grid-template-areas:
-      "d15 d15 d15 d15 d15 d15 d7 d7 d7 d7 d7 d7 d20 d20 d20"
-      "d15 d15 d15 d15 d15 d15 d7 d7 d7 d7 d7 d7 d20 d20 d20"
-      "d15 d15 d15 d15 d15 d15 d7 d7 d7 d7 d7 d7 d20 d20 d20"
-      "d15 d15 d15 d15 d15 d15 d7 d7 d7 d7 d7 d7 d20 d20 d20"
-      "d21 d21 d21 d21 d21 d21 d2 d2 d24 d24 d24 d24 d24 d24 d24"
-      "d21 d21 d21 d21 d21 d21 d2 d2 d24 d24 d24 d24 d24 d24 d24"
-      "d17 d17 d11 d11 d11 d11 d2 d2 d24 d24 d24 d24 d24 d24 d24"
-      "d17 d17 d11 d11 d11 d11 d2 d2 d24 d24 d24 d24 d24 d24 d24"
-      "d17 d17 d11 d11 d11 d11 d2 d2 d14 d14 d14 d14 d1 d1 d1"
-      "d9 d9 d9 d9 d4 d4 d4 d4 d14 d14 d14 d14 d1 d1 d1"
-      "d9 d9 d9 d9 d4 d4 d4 d4 d14 d14 d14 d14 d1 d1 d1"
-      "d9 d9 d9 d9 d19 d19 d19 d19 d19 d19 d22 d22 d22 d5 d5"
-      "d9 d9 d9 d9 d19 d19 d19 d19 d19 d19 d22 d22 d22 d5 d5"
-      "d3 d3 d3 d3 d19 d19 d19 d19 d19 d19 d22 d22 d22 d5 d5"
-      "d3 d3 d3 d3 d6 d6 d6 d6 d6 d6 d22 d22 d22 d5 d5"
-      "d13 d13 d13 d13 d13 d13 d23 d23 d23 d23 d23 d23 d23 d23 d23"
-      "d13 d13 d13 d13 d13 d13 d23 d23 d23 d23 d23 d23 d23 d23 d23"
-      "d13 d13 d13 d13 d13 d13 d23 d23 d23 d23 d23 d23 d23 d23 d23"
-      "d13 d13 d13 d13 d13 d13 d23 d23 d23 d23 d23 d23 d23 d23 d23"
-      "d13 d13 d13 d13 d13 d13 d23 d23 d23 d23 d23 d23 d23 d23 d23"
-      "d12 d12 d12 d12 d12 d12 d12 d12 d12 d18 d18 d18 d18 d18 d18"
-      "d12 d12 d12 d12 d12 d12 d12 d12 d12 d18 d18 d18 d18 d18 d18"
-      "d16 d16 d16 d16 d16 d16 d10 d10 d10 d18 d18 d18 d18 d18 d18"
-      "d16 d16 d16 d16 d16 d16 d10 d10 d10 d18 d18 d18 d18 d18 d18"
-      "d16 d16 d16 d16 d16 d16 d10 d10 d10 d18 d18 d18 d18 d18 d18"
-      "d8 d8 d8 d8 d8 d8 d8 d8 d25 d25 d25 d25 d25 d25 d25"
-      "d8 d8 d8 d8 d8 d8 d8 d8 d25 d25 d25 d25 d25 d25 d25"
-      "d8 d8 d8 d8 d8 d8 d8 d8 d25 d25 d25 d25 d25 d25 d25"
-      "d8 d8 d8 d8 d8 d8 d8 d8 d25 d25 d25 d25 d25 d25 d25"
-      "d8 d8 d8 d8 d8 d8 d8 d8 d25 d25 d25 d25 d25 d25 d25";
   }
 }
