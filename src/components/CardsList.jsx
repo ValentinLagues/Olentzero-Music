@@ -8,7 +8,7 @@ const CardsList = ({ darkMode }) => {
   const [activeCard, setActiveCard] = useState(0);
 
   return (
-    <div className={darkMode ? "grid-avent-dark" : "grid-avent"}>
+    <div className={darkMode ? "grid-advent-dark" : "grid-advent"}>
       {darkMode
         ? darkCalendar.map((day, index) => (
             <Card
