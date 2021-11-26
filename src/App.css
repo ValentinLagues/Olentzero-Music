@@ -8,3 +8,10 @@
   text-align: center;
   padding: 2% 2%;
 }
+
+.App-darkMode {
+  background-image: url("../src/images/horror2.jpg");
+  background-size: cover;
+  text-align: center;
+  padding: 2% 2%;
+}
