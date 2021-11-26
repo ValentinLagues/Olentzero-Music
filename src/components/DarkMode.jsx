@@ -9,7 +9,7 @@ const DarkMode = ({ setDarkMode, darkMode }) => {
         value={darkMode}
         onClick={() => setDarkMode(!darkMode)}
       >
-        {darkMode ? "Light Mode" : "Dark Mode"}
+        {darkMode ? "Santa Mode" : "Evil Santa Mode"}
       </button>
     </div>
   );

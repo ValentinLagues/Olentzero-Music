@@ -25,6 +25,7 @@
   background-color: rgb(255, 255, 255);
   border-radius: 15px;
   border: none;
+  cursor: pointer;
 }
 .mode {
   font-family: ChristmasSquad, "Courier New", Courier, monospace;
@@ -42,4 +43,5 @@
   background-color: rgb(255, 255, 255);
   border-radius: 15px;
   border: none;
+  cursor: pointer;
 }
