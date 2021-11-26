@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./countdown.css";
 
-function Countdown() {
+function Countdown({darkMode}) {
   const calculateTimeLeft = () => {
     let year = new Date().getFullYear();
     const difference = +new Date(`${year}-12-25`) - +new Date();
@@ -43,8 +43,8 @@ function Countdown() {
   });
   return (
     <div className="countdown-container">
-      <div className="countdown-container-2">
-        <p className="countdown-christmas">(Christmas Countdown)</p>
+      <div className={darkMode ? "dark-countdown-container-2" : "countdown-container-2"}>
+        <p className="countdown-christmas">{darkMode ? "Christmas Countdown" : "(Christmas Countdown)"}</p>
         {timerComponents.length ? (
           <div className="countdown-date">{timerComponents}</div>
         ) : (
