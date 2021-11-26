@@ -13,14 +13,6 @@
   src: local("MerryChristmasStar"), url("../Fonts/MerryChristmasStar.ttf");
 }
 
-.main-title {
-  font-family: MerryChristmasStar, "Courier New", Courier, monospace;
-  font-size: 7em;
-  color: #ac1018;
-  text-shadow: 3px 3px 1px #568d66;
-  letter-spacing: 10px;
-}
-
 .countdown-container {
   margin-top: 2%;
   display: flex;
