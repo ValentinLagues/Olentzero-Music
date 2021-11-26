@@ -9,8 +9,6 @@ import Snow from "./components/Snow";
 function App() {
   const [darkMode, setDarkMode] = useState(false);
 
-  console.log(darkMode);
-
   return (
     <div className={darkMode ? "App-darkMode" : "App"}>
       <Snow darkMode={darkMode} />
