@@ -185,13 +185,13 @@ const calendar = [
   {
     number: "18",
     image: image18,
-    lottie: lottie18,
+    lottie: lottie19,
     url: song18,
   },
   {
     number: "19",
     image: image19,
-    lottie: lottie19,
+    lottie: lottie18,
     url: song19,
   },
   {
