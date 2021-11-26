@@ -5,8 +5,8 @@ const DarkMode = ({setDarkMode, darkMode}) => {
 
     return (
         <div className="dark-mode">
-            <label htmlFor="checkbox">Dark Mode</label>
-            <input type="checkbox" value={darkMode} onClick={(() => setDarkMode(!darkMode))} />
+            <label className="dark-mode-label" htmlFor="checkbox">Dark Mode</label>
+            <input className="dark-mode-checkbox" type="checkbox" value={darkMode} onClick={(() => setDarkMode(!darkMode))} />
         </div>
     )
 }
