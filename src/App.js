@@ -1,11 +1,21 @@
-import './App.css';
-import Cards from './components/Cards'
+import { useState } from "react";
+import "./App.css";
+import CardList from "./components/CardsList";
+import Modal from "./components/Modal";
+import Countdown from "./components/Countdown";
+import DarkMode from "./components/DarkMode";
+import Snow from "./components/Snow";
 
 function App() {
+  const [darkMode, setDarkMode] = useState(false);
 
   return (
-    <div className="App">
-      <Cards />
+    <div className={darkMode ? "App-darkMode" : "App"}>
+      <Snow darkMode={darkMode} />
+      <Modal />
+      <Countdown darkMode={darkMode} />
+      <DarkMode darkMode={darkMode} setDarkMode={setDarkMode} />
+      <CardList darkMode={darkMode} />
     </div>
   );
 }

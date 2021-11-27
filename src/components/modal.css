@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "MerryChristmasStar";
+  src: local("MerryChristmasStar"), url("../Fonts/MerryChristmasStar.ttf");
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translate(0, -50vw);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.App-modal {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -40px;
+  margin-left: -2%;
+  position: fixed;
+  z-index: 1000;
+  font-family: MerryChristmasStar, "Courier New", Courier, monospace;
+  width: 100vw;
+  height: 110vh;
+  background-color: rgb(177, 0, 0);
+  background-image: url("../images/BackgroundGif.gif");
+  background-size: 40vw 110vh;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-size: 8vw;
+}
+.App-modal p {
+  font-size: 5vw;
+}
+.App-title {
+  animation-name: slideIn;
+  animation-duration: 2s;
+}

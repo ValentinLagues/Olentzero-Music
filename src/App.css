@@ -1,3 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .App {
+  background-image: url("../src/images/background.jpg");
+  background-size: cover;
+}
+
+.App-darkMode {
+  background-image: url("../src/images/horror2.jpg");
+  background-size: cover;
+}
+
+.App,
+.App-darkMode {
   text-align: center;
+  padding: 2% 2%;
+}
+
+@media screen and (max-width: 812px) {
+  .App,
+  .App-darkMode {
+    padding: 2% 2% 30% 2%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .App,
+  .App-darkMode {
+    height: 150vh;
+  }
 }

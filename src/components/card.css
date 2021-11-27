@@ -1,0 +1,124 @@
+.cards-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 5px;
+  border-left: dashed 2px transparent;
+  border-top: dashed 2px transparent;
+  border-bottom: dashed 2px transparent;
+  border-right: solid 2px transparent;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.5) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.55) 0px 8px 16px -8px;
+  transition: 1s;
+}
+
+.cards-container,
+.overlay {
+  border-radius: 5px;
+}
+
+.cards-container:hover {
+  border-left: dashed 2px black;
+  border-top: dashed 2px black;
+  border-bottom: dashed 2px black;
+  border-right: solid 2px black;
+  box-shadow: rgba(50, 50, 93, 0.8) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.85) 0px 8px 16px -8px;
+}
+
+.player {
+  visibility: hidden;
+}
+
+.cards-container img {
+  width: 6vw;
+  height: auto;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: 0.4s;
+}
+
+.overlay:hover {
+  opacity: 0;
+}
+
+/* ------------------------------------- RESPONSIVE ------------------------------------- */
+
+@media screen and (max-width: 812px) {
+  .overlay h1 {
+    font-size: 1.3em;
+    text-shadow: black 1px 1px;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+  }
+
+  .overlay {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .cards-container {
+    border-left: dashed 1px black;
+    border-top: dashed 1px black;
+    border-bottom: dashed 1px black;
+    border-right: solid 1px black;
+    width: 15vw;
+    height: 15vw;
+    position: relative;
+  }
+
+  .cards-container:nth-last-child(1) {
+    width: 50vw;
+  }
+
+  .cards-container img {
+    width: 12vw;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .overlay h1 {
+    font-size: 1.2em;
+    text-shadow: black 1.5px 1px;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+  }
+
+  .overlay {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .cards-container {
+    border-left: dashed 2px black;
+    border-top: dashed 2px black;
+    border-bottom: dashed 2px black;
+    border-right: solid 2px black;
+    width: 26vw;
+    height: 26vw;
+    position: relative;
+  }
+
+  .cards-container:nth-last-child(1) {
+    width: 85vw;
+  }
+
+  .cards-container img {
+    width: 15vw;
+    height: auto;
+  }
+}
