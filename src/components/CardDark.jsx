@@ -46,12 +46,13 @@ const CardDark = ({
             className={`lottie${number}`}
           >
             <ReactPlayer
-              width="100%"
-              height="30px"
               url={track}
-              //controls
+              controls
+              //Modifié le width et le height pour accèdé au player
+              width="0"
+              height="0"
               playing={activeDarkCard === number}
-              volume={0.1}
+              volume={0.8}
             />
             <Lottie options={defaultOptions} />
           </div>
