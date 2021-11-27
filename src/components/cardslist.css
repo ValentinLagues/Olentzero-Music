@@ -178,7 +178,7 @@
   .grid-advent-dark {
     display: flex;
     flex-wrap: wrap;
-    height: 100vh;
+    min-height: min-content;
     justify-content: center;
   }
 }

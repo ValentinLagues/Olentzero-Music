@@ -28,10 +28,6 @@
     rgba(0, 0, 0, 0.85) 0px 8px 16px -8px;
 }
 
-.player {
-  visibility: hidden;
-}
-
 .cards-container img {
   width: 6vw;
   height: auto;
@@ -80,13 +76,48 @@
     position: relative;
   }
 
-  .cards-container:nth-last-child(1) {
-    width: 50vw;
+  /* Size to image in card */
+  #card-container-image-dark7 img,
+  #card-container-image-dark8 img,
+  #card-container-image-dark9 img {
+    height: 15vw;
+    width: 6vw;
   }
-
+  #card-container-image6 img,
+  #card-container-image12 img,
+  #card-container-image13 img,
+  #card-container-image17 img,
+  #card-container-image20 img,
+  #card-container-image24 img {
+    width: 9vw;
+  }
   .cards-container img {
     width: 12vw;
-    height: auto;
+  }
+  /* Size to card container */
+  #card-container-image21,
+  #card-container-image22,
+  #card-container-image23,
+  #card-container-image24,
+  #card-container-image-dark21,
+  #card-container-image-dark22,
+  #card-container-image-dark23,
+  #card-container-image-dark24 {
+    width: 19vw;
+  }
+  #card-container-image25,
+  #card-container-image-dark25 {
+    height: 25vw;
+    width: 80vw;
+  }
+  /* Size of lottie in card */
+  .lottie21,
+  .lottie24,
+  .lottie22 {
+    height: 15vw;
+  }
+  .lottie25 {
+    height: 25vw;
   }
 }
 
@@ -113,12 +144,30 @@
     position: relative;
   }
 
-  .cards-container:nth-last-child(1) {
-    width: 85vw;
-  }
-
   .cards-container img {
     width: 15vw;
-    height: auto;
+  }
+  #card-container-image-dark9 img {
+    height: 20vw;
+  }
+
+  #card-container-image25,
+  #card-container-image-dark25 {
+    height: 50vw;
+    width: 85vw;
+  }
+  /* Size to card container */
+  #card-container-image21,
+  #card-container-image22,
+  #card-container-image23,
+  #card-container-image24,
+  #card-container-image-dark21,
+  #card-container-image-dark22,
+  #card-container-image-dark23,
+  #card-container-image-dark24 {
+    width: 26vw;
+  }
+  .lottie25 {
+    height: 50vw;
   }
 }

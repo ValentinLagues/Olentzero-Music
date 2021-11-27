@@ -1,12 +1,19 @@
-import React, { useState } from "react";
+import React from "react";
 import ReactPlayer from "react-player";
 import Lottie from "react-lottie";
 import "./card.css";
 import "./cardslist.css";
 
-const Card = ({ track, number, image, lottie, activeCard, setActiveCard }) => {
-  const [cardReturn, setCardreturn] = useState(true);
-
+const Card = ({
+  track,
+  number,
+  image,
+  lottie,
+  activeCard,
+  setActiveCard,
+  cardReturn,
+  setCardReturn,
+}) => {
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -17,26 +24,28 @@ const Card = ({ track, number, image, lottie, activeCard, setActiveCard }) => {
     <>
       <div
         className={`day-${number} cards-container`}
+        id={`card-container-image${number}`}
         onClick={() =>
           activeCard === number ? setActiveCard(0) : setActiveCard(number)
         }
       >
-        {cardReturn && (
+        {cardReturn !== number && (
           <>
-            <div onClick={() => setCardreturn(!cardReturn)} className="overlay">
+            <div onClick={() => setCardReturn(number)} className="overlay">
               <h1>{number}</h1>
             </div>
-            <img src={image} alt="{}" />
+            <img src={image} alt={number} />
           </>
         )}
 
-        {!cardReturn && (
-          <div onClick={() => setCardreturn(!cardReturn)}>
+        {activeCard === number && (
+          <div onClick={() => setCardReturn(0)} className={`lottie${number}`}>
             <ReactPlayer
-              width="0"
-              height="0"
               url={track}
               controls
+              //Modifié le width et le height pour accèdé au player
+              width="0"
+              height="0"
               playing={activeCard === number}
               volume={0.8}
             />

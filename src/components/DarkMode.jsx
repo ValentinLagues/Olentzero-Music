@@ -6,7 +6,7 @@ const DarkMode = ({ setDarkMode, darkMode }) => {
       <button
         className={darkMode ? "dark-mode-label" : "mode-label"}
         type="button"
-        value={darkMode}
+        value=""
         onClick={() => setDarkMode(!darkMode)}
       >
         {darkMode ? "Santa Mode" : "Evil Santa Mode"}
