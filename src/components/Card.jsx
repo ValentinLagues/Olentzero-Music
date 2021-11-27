@@ -41,11 +41,10 @@ const Card = ({
         {activeCard === number && (
           <div onClick={() => setCardReturn(0)} className={`lottie${number}`}>
             <ReactPlayer
-              onClick="playing"
               width="100%"
               height="30px"
-              controls
               url={track}
+              //controls
               playing={activeCard === number}
               volume={0.8}
             />

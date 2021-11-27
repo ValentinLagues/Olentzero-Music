@@ -47,9 +47,9 @@ const CardDark = ({
           >
             <ReactPlayer
               width="100%"
-              height="0"
+              height="30px"
               url={track}
-              controls
+              //controls
               playing={activeDarkCard === number}
               volume={0.1}
             />
