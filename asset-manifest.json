@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/olentzero-music/static/css/main.1eca93fc.chunk.css",
-    "main.js": "/olentzero-music/static/js/main.37d1f0bf.chunk.js",
-    "main.js.map": "/olentzero-music/static/js/main.37d1f0bf.chunk.js.map",
+    "main.js": "/olentzero-music/static/js/main.c8e678dc.chunk.js",
+    "main.js.map": "/olentzero-music/static/js/main.c8e678dc.chunk.js.map",
     "runtime-main.js": "/olentzero-music/static/js/runtime-main.77b93274.js",
     "runtime-main.js.map": "/olentzero-music/static/js/runtime-main.77b93274.js.map",
     "static/js/2.3e60891e.chunk.js": "/olentzero-music/static/js/2.3e60891e.chunk.js",
@@ -99,6 +99,6 @@
     "static/js/runtime-main.77b93274.js",
     "static/js/2.3e60891e.chunk.js",
     "static/css/main.1eca93fc.chunk.css",
-    "static/js/main.37d1f0bf.chunk.js"
+    "static/js/main.c8e678dc.chunk.js"
   ]
 }
