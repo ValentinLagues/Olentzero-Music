@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import ReactPlayer from "react-player";
 import Lottie from "react-lottie";
 import "./card.css";
@@ -9,11 +9,11 @@ const CardDark = ({
   number,
   image,
   lottie,
-  activeCard,
-  setActiveCard,
+  activeDarkCard,
+  setActiveDarkCard,
+  cardDarkReturn,
+  setCardDarkReturn,
 }) => {
-  const [cardDarkReturn, setCardDarkreturn] = useState(true);
-
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -26,32 +26,31 @@ const CardDark = ({
         className={`day-${number} cards-container`}
         id={`card-container-image-dark${number}`}
         onClick={() =>
-          activeCard === number ? setActiveCard(0) : setActiveCard(number)
+          activeDarkCard === number
+            ? setActiveDarkCard(0)
+            : setActiveDarkCard(number)
         }
       >
-        {cardDarkReturn && (
+        {cardDarkReturn !== number && (
           <>
-            <div
-              onClick={() => setCardDarkreturn(!cardDarkReturn)}
-              className="overlay"
-            >
+            <div onClick={() => setCardDarkReturn(number)} className="overlay">
               <h1>{number}</h1>
             </div>
-            <img src={image} alt="{}" />
+            <img src={image} alt={number} />
           </>
         )}
 
-        {!cardDarkReturn && (
+        {activeDarkCard === number && (
           <div
-            onClick={() => setCardDarkreturn(!cardDarkReturn)}
+            onClick={() => setCardDarkReturn(0)}
             className={`lottie${number}`}
           >
             <ReactPlayer
-              width="0"
+              width="100%"
               height="0"
               url={track}
               controls
-              playing={activeCard === number}
+              playing={activeDarkCard === number}
               volume={0.1}
             />
             <Lottie options={defaultOptions} />

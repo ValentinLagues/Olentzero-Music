@@ -28,10 +28,6 @@
     rgba(0, 0, 0, 0.85) 0px 8px 16px -8px;
 }
 
-.player {
-  visibility: hidden;
-}
-
 .cards-container img {
   width: 6vw;
   height: auto;
