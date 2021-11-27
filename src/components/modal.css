@@ -16,7 +16,7 @@
 .App-modal {
   display: flex;
   flex-wrap: wrap;
-  margin-top: -35px;
+  margin-top: -40px;
   margin-left: -2%;
   position: fixed;
   z-index: 1000;

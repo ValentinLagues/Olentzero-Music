@@ -21,7 +21,7 @@
 @media screen and (max-width: 812px) {
   .App,
   .App-darkMode {
-    height: 280vh;
+    padding: 2% 2% 30% 2%;
   }
 }
 
