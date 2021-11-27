@@ -6,6 +6,7 @@ import "./cardslist.css";
 
 const Card = ({ track, number, image, lottie, activeCard, setActiveCard }) => {
   const [cardReturn, setCardreturn] = useState(true);
+  const [displayNumber, setDisplayNumber] = useState(true);
 
   const defaultOptions = {
     loop: true,
@@ -17,7 +18,7 @@ const Card = ({ track, number, image, lottie, activeCard, setActiveCard }) => {
     <>
       <div
         className={`day-${number} cards-container`}
-        id={`image${number}`}
+        id={`card-container-image${number}`}
         onClick={() =>
           activeCard === number ? setActiveCard(0) : setActiveCard(number)
         }
@@ -27,7 +28,7 @@ const Card = ({ track, number, image, lottie, activeCard, setActiveCard }) => {
             <div onClick={() => setCardreturn(!cardReturn)} className="overlay">
               <h1>{number}</h1>
             </div>
-            <img src={image} alt="{}" />
+            <img src={image} alt={number} />
           </>
         )}
 

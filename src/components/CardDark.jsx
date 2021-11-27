@@ -24,7 +24,7 @@ const CardDark = ({
     <>
       <div
         className={`day-${number} cards-container`}
-        id={`image-dark${number}`}
+        id={`card-container-image-dark${number}`}
         onClick={() =>
           activeCard === number ? setActiveCard(0) : setActiveCard(number)
         }

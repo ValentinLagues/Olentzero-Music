@@ -17,18 +17,5 @@
 .App-darkMode {
   text-align: center;
   padding: 2% 2%;
-}
-
-@media screen and (max-width: 812px) {
-  .App,
-  .App-darkMode {
-    height: 170vh;
-  }
-}
-
-@media screen and (max-height: 420px) and (max-width: 820px) {
-  .App,
-  .App-darkMode {
-    height: 300vh;
-  }
+  min-height: 100vh;
 }
