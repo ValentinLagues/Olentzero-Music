@@ -88,7 +88,12 @@
     width: 12vw;
     height: auto;
   }
-  #lottie25 {
+  #image-dark9 img {
+    height: 15vw;
+    width: 9vw;
+  }
+  #image25,
+  #image-dark25 {
     height: 25vw;
   }
   .lottie25 {
@@ -127,7 +132,11 @@
     width: 15vw;
     height: auto;
   }
-  #lottie25 {
+  #image-dark9 img {
+    height: 20vw;
+  }
+  #image25,
+  #image-dark25 {
     height: 50vw;
   }
   .lottie25 {

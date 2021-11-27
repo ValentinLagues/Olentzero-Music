@@ -17,7 +17,7 @@ const Card = ({ track, number, image, lottie, activeCard, setActiveCard }) => {
     <>
       <div
         className={`day-${number} cards-container`}
-        id={`lottie${number}`}
+        id={`image${number}`}
         onClick={() =>
           activeCard === number ? setActiveCard(0) : setActiveCard(number)
         }

@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 .App {
   background-image: url("../src/images/background.jpg");
   background-size: cover;
@@ -21,7 +22,7 @@
 @media screen and (max-width: 812px) {
   .App,
   .App-darkMode {
-    height: 160vh;
+    height: 170vh;
   }
 }
 
