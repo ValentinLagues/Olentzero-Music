@@ -24,6 +24,7 @@ const CardDark = ({
     <>
       <div
         className={`day-${number} cards-container`}
+        id={`lottie${number}`}
         onClick={() =>
           activeCard === number ? setActiveCard(0) : setActiveCard(number)
         }
@@ -41,7 +42,10 @@ const CardDark = ({
         )}
 
         {!cardDarkReturn && (
-          <div onClick={() => setCardDarkreturn(!cardDarkReturn)}>
+          <div
+            onClick={() => setCardDarkreturn(!cardDarkReturn)}
+            className={`lottie${number}`}
+          >
             <ReactPlayer
               width="0"
               height="0"

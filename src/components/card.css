@@ -88,6 +88,12 @@
     width: 12vw;
     height: auto;
   }
+  #lottie25 {
+    height: 25vw;
+  }
+  .lottie25 {
+    height: 25vw;
+  }
 }
 
 @media screen and (max-width: 420px) {
@@ -120,5 +126,11 @@
   .cards-container img {
     width: 15vw;
     height: auto;
+  }
+  #lottie25 {
+    height: 50vw;
+  }
+  .lottie25 {
+    height: 50vw;
   }
 }

@@ -17,6 +17,7 @@ const Card = ({ track, number, image, lottie, activeCard, setActiveCard }) => {
     <>
       <div
         className={`day-${number} cards-container`}
+        id={`lottie${number}`}
         onClick={() =>
           activeCard === number ? setActiveCard(0) : setActiveCard(number)
         }
@@ -31,7 +32,10 @@ const Card = ({ track, number, image, lottie, activeCard, setActiveCard }) => {
         )}
 
         {!cardReturn && (
-          <div onClick={() => setCardreturn(!cardReturn)}>
+          <div
+            onClick={() => setCardreturn(!cardReturn)}
+            className={`lottie${number}`}
+          >
             <ReactPlayer
               width="0"
               height="0"

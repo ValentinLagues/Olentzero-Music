@@ -21,13 +21,13 @@
 @media screen and (max-width: 812px) {
   .App,
   .App-darkMode {
-    padding: 2% 2% 30% 2%;
+    height: 160vh;
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-height: 420px) and (max-width: 820px) {
   .App,
   .App-darkMode {
-    height: 150vh;
+    height: 300vh;
   }
 }
